@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userIv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/choose"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="动态动态动态动态动态"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:maxLines="2"
+        android:text="中国移动咪咕音乐啥啥啥中国移动咪咕音乐啥啥啥中国移动咪咕音乐啥啥啥中国移动咪咕音乐啥啥啥中国移动咪咕音乐啥啥啥中国移动咪咕音乐啥啥啥"
+        android:textColor="@color/most_gray_font_color"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/imagview_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_2"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_3"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_4"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="11:10"
+            android:textColor="@color/most_gray_font_color"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/information"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_commit"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/comment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_commitcontent"
+        android:padding="5dp"
+        android:text="中国移动咪咕音乐啥啥啥中国移动咪"
+        android:textColor="@color/most_gray_font_color"
+        android:visibility="gone" />
+
+
+</LinearLayout>

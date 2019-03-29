@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:text="请选择1至3门您最擅长的科目"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_politics"
+                style="@style/chooseSubjectStyle_iv"
+                android:src="@drawable/test" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/politics"
+                style="@style/chooseSubjectStyle_selecter_iv" />
+
+            <TextView
+                android:id="@+id/tv_politics"
+                style="@style/chooseSubjectStyle_tv"
+                android:layout_below="@id/iv_politics"
+                android:text="政治" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_history"
+                style="@style/chooseSubjectStyle_iv"
+                android:src="@drawable/test" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/history"
+                style="@style/chooseSubjectStyle_selecter_iv" />
+
+            <TextView
+                android:id="@+id/tv_history"
+                style="@style/chooseSubjectStyle_tv"
+                android:layout_below="@id/iv_history"
+                android:text="历史" />
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_geogryphy"
+                style="@style/chooseSubjectStyle_iv"
+                android:src="@drawable/test" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/geography"
+                style="@style/chooseSubjectStyle_selecter_iv" />
+
+            <TextView
+                android:id="@+id/tv_geogryphy"
+                style="@style/chooseSubjectStyle_tv"
+                android:layout_below="@id/iv_geogryphy"
+                android:text="地理" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_physics"
+                style="@style/chooseSubjectStyle_iv"
+                android:src="@drawable/test" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/physics"
+                style="@style/chooseSubjectStyle_selecter_iv" />
+
+            <TextView
+                android:id="@+id/tv_physics"
+                style="@style/chooseSubjectStyle_tv"
+                android:layout_below="@id/iv_physics"
+                android:text="物理" />
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_chemistry"
+                style="@style/chooseSubjectStyle_iv"
+                android:src="@drawable/test" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/chemistry"
+                style="@style/chooseSubjectStyle_selecter_iv" />
+
+            <TextView
+                android:id="@+id/tv_chemstry"
+                style="@style/chooseSubjectStyle_tv"
+                android:layout_below="@id/iv_chemistry"
+                android:text="化学" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_biology"
+                style="@style/chooseSubjectStyle_iv"
+                android:src="@drawable/test" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/biology"
+                style="@style/chooseSubjectStyle_selecter_iv" />
+
+            <TextView
+                android:id="@+id/tv_biologry"
+                style="@style/chooseSubjectStyle_tv"
+                android:layout_below="@id/iv_biology"
+                android:text="生物" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_technology"
+                style="@style/chooseSubjectStyle_iv"
+                android:src="@drawable/test" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/technology"
+                style="@style/chooseSubjectStyle_selecter_iv" />
+
+            <TextView
+                android:id="@+id/tv_technology"
+                style="@style/chooseSubjectStyle_tv"
+                android:layout_below="@id/iv_technology"
+                android:text="技术" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_literature_art"
+                style="@style/chooseSubjectStyle_iv"
+                android:src="@drawable/test" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/literature_art"
+                style="@style/chooseSubjectStyle_selecter_iv" />
+
+            <TextView
+                android:id="@+id/tv_literature_art"
+                style="@style/chooseSubjectStyle_tv"
+                android:layout_below="@id/iv_literature_art"
+                android:text="文艺" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/iv_sports"
+                style="@style/chooseSubjectStyle_iv"
+                android:src="@drawable/test" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/sports"
+                style="@style/chooseSubjectStyle_selecter_iv" />
+
+            <TextView
+                android:id="@+id/tv_sports"
+                style="@style/chooseSubjectStyle_tv"
+                android:layout_below="@id/iv_sports"
+                android:text="体育" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/come"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_commit"
+        android:text="查询"
+        android:textSize="20sp" />
+</LinearLayout>

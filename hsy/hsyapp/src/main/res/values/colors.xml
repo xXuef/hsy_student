@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="line_bg">#f5f4f4</color>
+    <color name="black_custom">#000000</color>
+    <color name="gary_font">#999999</color>
+    <!--#02B05B action的旧颜色-->
+    <color name="stabar_color">#3F9EFE</color>
+    <color name="blue">#0000ff</color>
+
+    <color name="green">#0F0</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#e6e6e6</color>
+    <color name="light_gray2">#fafafa</color>
+    <color name="select_font_color">#199ED8</color>
+
+    <!--大部分灰色字体-->
+    <color name="most_gray_font_color">#C9C9C9</color>
+
+    <!--日历-->
+    <color name="line_color">#e7e7e7</color>
+    <color name="content_background">#f2f2f2</color>
+    <color name="solar_background">#009988</color>
+    <!--自绘表格头的背景颜色-->
+    <color name="table_title">#E4F0FB</color>
+    <!--天蓝色-->
+    <color name="blue_god">#3F9EFE</color>
+    <!--透明色-->
+    <color name="touming">#ff000000</color>
+</resources>

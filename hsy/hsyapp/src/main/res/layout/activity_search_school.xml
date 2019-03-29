@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_search_specialty"/>
+
+    <TextView
+        android:id="@+id/num_school"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="共找到***所学校"
+        android:textSize="13sp" />
+
+    <ListView
+        android:id="@+id/lv_school"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

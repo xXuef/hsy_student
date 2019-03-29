@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/title_layout"
+    android:layout_margin="5dp"
+    android:background="@drawable/bg_search">
+
+    <EditText
+        android:id="@+id/et_school"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@null"
+        android:gravity="center"
+        android:hint="搜专业"
+        android:padding="5dp"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/iv_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="80dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:src="@drawable/icon_search" />
+
+</RelativeLayout>

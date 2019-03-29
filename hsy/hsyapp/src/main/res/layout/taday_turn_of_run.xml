@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:text="考勤记录"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="打卡进入学校"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/come_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:text="2017-12-2  07:23"
+        android:textColor="@color/most_gray_font_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="打卡离开学校"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/leave_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:text="2017-12-2  07:23"
+        android:textColor="@color/most_gray_font_color"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:text="请假记录"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="病假"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/leaves_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:text="2017-12-2  07:23"
+        android:textColor="@color/most_gray_font_color"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

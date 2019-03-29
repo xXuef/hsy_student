@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hsy.iml" filepath="$PROJECT_DIR$/hsy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hsyapp/hsyapp.iml" filepath="$PROJECT_DIR$/hsyapp/hsyapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytestmvp/mytestmvp.iml" filepath="$PROJECT_DIR$/mytestmvp/mytestmvp.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="wrap_content"
+    android:layout_height="260dp"
+    android:background="@drawable/item_isclick"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/test" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:padding="3dp"
+        android:text="萧炎"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:maxLines="6"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="资质卓绝，四岁练气，十岁拥有九段斗之气，十一岁成功凝聚斗之气旋，一跃成为家族百年之内最年轻的斗者。十二岁成为斗者却又连续三年功力倒退保持在斗之气三段，从此逐渐沦为遭人白眼的废柴。原因是名为药尘的八品巅峰炼药宗师的魂魄在母亲的遗物古戒中吸收他的斗气，在药尘停止吸收斗气后终于天赋重展，在药尘的帮助下一年时间突破斗者，震惊全城，后又在药尘的教导下，成为加玛帝国黑岩城最年轻的二品炼药师，凭借执着与信念闯荡大陆，不断取得辉煌的战绩。"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvGone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1111"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="hsy.com.hsy.activity.LivePlanActivityMy">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:id="@+id/search_school"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_item_liveplan"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/e"
+                style="@style/LiveTestImageView"
+                android:src="@drawable/seachschool" />
+
+            <TextView
+                style="@style/LiveTestTextView"
+                android:layout_below="@id/e"
+                android:text="查院校" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/search_professional"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_item_liveplan"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/r"
+                style="@style/LiveTestImageView"
+                android:src="@drawable/seachzhiye" />
+
+            <TextView
+                style="@style/LiveTestTextView"
+                android:layout_below="@id/r"
+                android:text="查专业" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/search_choosecourse"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_item_liveplan"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/t"
+                style="@style/LiveTestImageView"
+                android:src="@drawable/seachchoosesub" />
+
+            <TextView
+                style="@style/LiveTestTextView"
+                android:layout_below="@id/t"
+                android:text="查选科" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:id="@+id/search_profession"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_item_liveplan"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/y"
+                style="@style/LiveTestImageView"
+                android:src="@drawable/seachzhiye" />
+
+            <TextView
+                style="@style/LiveTestTextView"
+                android:layout_below="@id/y"
+                android:text="查职业" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/testtool"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_item_liveplan"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/w"
+                style="@style/LiveTestImageView"
+                android:src="@drawable/testtools" />
+
+            <TextView
+                style="@style/LiveTestTextView"
+                android:layout_below="@id/w"
+                android:text="测试工具" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/test_report"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_item_liveplan"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/q"
+                style="@style/LiveTestImageView"
+                android:src="@drawable/testexcel" />
+
+            <TextView
+                style="@style/LiveTestTextView"
+                android:layout_below="@id/q"
+                android:text="测评报告" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

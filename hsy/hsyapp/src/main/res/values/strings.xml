@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">hsy</string>
+
+
+    <string name="title_tv">GridView动态添加删除</string>
+    <string name="add_title">动态添加</string>
+    <string name="add_title_text">选择</string>
+    <string name="confirm_btn">确定</string>
+</resources>

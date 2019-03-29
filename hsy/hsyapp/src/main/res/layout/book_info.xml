@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/book_icon"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/test" />
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/book_icon"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:id="@+id/bookname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="列夫托尔斯泰"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bookname"
+        android:layout_gravity="center"
+        android:id="@+id/verson"
+        android:textColor="@color/most_gray_font_color"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:text="列夫托尔斯泰"
+        android:textSize="13sp" />
+
+
+</RelativeLayout>
